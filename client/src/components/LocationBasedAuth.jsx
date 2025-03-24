@@ -44,7 +44,7 @@ const LocationBasedAuth = () => {
         // Handle page refreshes
         window.addEventListener('load', checkLocationAndSetAuth);
         return () => window.removeEventListener('load', checkLocationAndSetAuth);
-    }, []);
+    }, [checkLocationAndSetAuth]);
 
     return null; // This component doesn't render anything
 };

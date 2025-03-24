@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import { isSouthIndianLocation } from '../utils/themeUtils';
 
 const LocationBasedAuth = () => {
